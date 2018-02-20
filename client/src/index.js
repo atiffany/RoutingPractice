@@ -11,7 +11,7 @@ ReactDOM.render(
     <div>
       <div>Poor Man's IMDB!</div>
       <Route exact path = '/' component={MovieList} />
-      <Route path = '/:id' component={Movie} />
+      <Route path = '/movies/:id' component={Movie} />
     </div>
   </BrowserRouter>,
   document.getElementById('root')
